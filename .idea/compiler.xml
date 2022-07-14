@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="online_edu_oss" />
+        <module name="online_edu_user" />
+        <module name="online_edu_service" />
+        <module name="online_edu_video" />
+        <module name="online_edu_register" />
+        <module name="online_edu_order" />
+        <module name="online_edu_common" />
+        <module name="online_edu_statistics" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="online_edu_common" options="-parameters" />
+      <module name="online_edu_order" options="-parameters" />
+      <module name="online_edu_oss" options="-parameters" />
+      <module name="online_edu_register" options="-parameters" />
+      <module name="online_edu_service" options="-parameters" />
+      <module name="online_edu_statistics" options="-parameters" />
+      <module name="online_edu_user" options="-parameters" />
+      <module name="online_edu_video" options="-parameters" />
+    </option>
+  </component>
+</project>
